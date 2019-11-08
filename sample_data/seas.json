@@ -1,0 +1,246 @@
+{"secureName": "sea-Atlantic",
+"country": "F E GBZ IS IRL GB P AG BS BDS CDN USA C WD DOM RH WG KN WL WV TT RA BR RCH ROU FGU GUY SME YV RIM MA WSA ANG RCB NAM ZRE BEN WAN RT RSA CI GH CAM GQ G CV RG LB WAG SN GNB WAL NLSM SMAR SBAR STP PR AXA GUAD MART BVIR MNTS VIRG HELX FALK SPMI BERM TUCA SVAX GROX FARX",
+"bordering": "sea-Mittelmeer sea-Channel sea-Irische_See sea-Nordsee sea-NorwegianSea sea-Greenlandsea sea-LabradorSea sea-Golf_von_Mexiko sea-Caribbean sea-Indic",
+"name": "Atlantic Ocean",
+"depth": 9219
+}
+{
+"secureName": "sea-Mittelmeer",
+"country": "AL GR MNE HR BIH SLO F E I TR MC M CY IL GAZA ET SYR RL DZ LAR MA TN GBZ CEU MEL",
+"bordering": "sea-Marmarameer sea-Atlantic",
+"name": "Mediterranean Sea",
+"depth": 5121
+}
+{
+"secureName": "sea-Schwarzes_Meer",
+"country": "UA R BG RO TR GE",
+"bordering": "sea-Marmarameer sea-Asowsches_Meer",
+"name": "Black Sea",
+"depth": 2211}
+{
+"secureName": "sea-Marmarameer",
+"country": "TR",
+"bordering": "sea-Mittelmeer sea-Schwarzes_Meer",
+"name": "Marmara Sea",
+"depth": 1355}
+{
+"secureName": "sea-Asowsches_Meer",
+"country": "UA R",
+"bordering": "sea-Schwarzes_Meer",
+"name": "Sea of Azov",
+"depth": 100}
+{
+"secureName": "sea-Channel",
+"country": "F GB GBG GBJ",
+"bordering": "sea-Atlantic sea-Nordsee",
+"name": "The Channel",
+"depth": 175}
+{
+"secureName": "sea-Irische_See",
+"country": "IRL GB GBM",
+"bordering": "sea-Atlantic",
+"name": "Irish Sea",
+"located": {
+  "country": "GB",
+  "-province": "prov-gb-2 prov-gb-10 prov-gb-11 prov-gb-12"},
+"depth": 272}
+{
+"secureName": "sea-Nordsee",
+"country": "NL B F DK N GB D",
+"bordering": "sea-Atlantic sea-NorwegianSea sea-Channel sea-Skagerrak",
+"name": "North Sea",
+"depth": 200}
+{
+"secureName": "sea-Skagerrak",
+"country": "N S DK",
+"bordering": "sea-Nordsee sea-Kattegat",
+"name": "Skagerrak",
+"depth": 725}
+{
+"secureName": "sea-Kattegat",
+"country": "S DK",
+"bordering": "sea-Skagerrak sea-Ostsee",
+"name": "Kattegat",
+"depth": 94}
+{
+"secureName": "sea-Ostsee",
+"country": "D LV LT PL R DK EW SF S",
+"bordering": "sea-Kattegat",
+"name": "Baltic Sea",
+"depth": 459}
+{
+"secureName": "sea-NorwegianSea",
+"country": "N IS FARX SVAX GB",
+"bordering": "sea-Nordsee sea-Atlantic sea-Greenlandsea sea-BarentsSea",
+"name": "Norwegian Sea",
+"depth": 3970}
+{
+"secureName": "sea-Greenlandsea",
+"country": "IS SVAX GROX",
+"bordering": "sea-Atlantic sea-NorwegianSea sea-ArcticOcean",
+"name": "Greenland Sea",
+"depth": 4846}
+{
+"secureName": "sea-BarentsSea",
+"country": "N R SVAX",
+"bordering": "sea-NorwegianSea sea-ArcticOcean sea-KaraSea",
+"name": "Barents Sea",
+"depth": 450}
+{
+"secureName": "sea-KaraSea",
+"country": "R",
+"bordering": "sea-BarentsSea sea-ArcticOcean",
+"name": "Kara Sea",
+"located": {
+  "country": "R",
+  "-province": "prov-Russia-5 prov-Russia-92 prov-Russia-75"}
+}
+{
+"secureName": "sea-ArcticOcean",
+"country": "R CDN USA SVAX GROX",
+"bordering": "sea-HudsonBay sea-LabradorSea sea-Greenlandsea sea-BarentsSea sea-KaraSea sea-SibirianSea sea-BeringSea",
+"name": "Arctic Ocean",
+"depth": 5608}
+{
+"secureName": "sea-SibirianSea",
+"country": "R",
+"bordering": "sea-ArcticOcean sea-BeringSea",
+"name": "East Sibirian Sea",
+"depth": 540}
+{
+"secureName": "sea-BeringSea",
+"country": "R USA",
+"bordering": "sea-ArcticOcean sea-SibirianSea sea-Pacific",
+"name": "Bering Sea",
+"depth": 4096}
+{
+"secureName": "sea-LabradorSea",
+"country": "CDN GROX",
+"bordering": "sea-HudsonBay sea-Atlantic sea-ArcticOcean",
+"name": "Labrador Sea",
+"depth": 4316}
+{
+"secureName": "sea-Golf_von_Mexiko",
+"country": "MEX USA C",
+"bordering": "sea-Atlantic sea-Caribbean",
+"name": "Gulf of Mexico",
+"depth": 4375}
+{
+"secureName": "sea-Caribbean",
+"country": "AG BZ GCA MEX CR NIC PA C WD DOM RH HCA WG JA CO KN WL WV YV PR SMAR SBAR AXA GUAD MART BVIR MNTS VIRG TT NLSM CUR ARU CAYM",
+"bordering": "sea-Atlantic sea-Golf_von_Mexiko",
+"name": "Caribbean Sea",
+"depth": 7240}
+{
+"secureName": "sea-Pacific",
+"country": "R J RP RC GCA MEX CDN USA CR NIC PA ES HCA CO AUS FJI KIR MH FSM NAU NZ PAL SLB TO TOK TUV VU WS RCH PE EC RI PNG NCA NIUE NMIS PITC WAFU AMSA COOK FPOL GUAM NORF",
+"bordering": "sea-BeringSea sea-OchotskSea sea-Japanisches_Meer sea-EastChinaSea sea-SouthChinaSea sea-Sulusee sea-Celebessee sea-Bandasee sea-Indic",
+"name": "Pacific Ocean",
+"depth": 11034}
+{
+"secureName": "sea-OchotskSea",
+"country": "R J",
+"bordering": "sea-Pacific sea-Japanisches_Meer",
+"depth": 3372}
+{
+"secureName": "sea-Japanisches_Meer",
+"country": "R J ROK NOK",
+"bordering": "sea-Pacific sea-Gelbes_Meer sea-EastChinaSea sea-OchotskSea",
+"name": "Sea of Japan",
+"depth": 4036}
+{
+"secureName": "sea-Gelbes_Meer",
+"country": "CN ROK NOK",
+"bordering": "sea-EastChinaSea sea-Japanisches_Meer",
+"name": "Yellow Sea",
+"depth": 200}
+{
+"secureName": "sea-EastChinaSea",
+"country": "CN RC ROK J",
+"bordering": "sea-Pacific sea-Gelbes_Meer sea-SouthChinaSea sea-Japanisches_Meer",
+"name": "East China Sea",
+"depth": 2370}
+{
+"secureName": "sea-SouthChinaSea",
+"country": "CN MAL THA K VN BRU SGP RI RP RC HONX MACX",
+"bordering": "sea-Pacific sea-EastChinaSea sea-Javasee sea-Sulusee sea-MalakkaStrait",
+"name": "South China Sea",
+"depth": 5420}
+{
+"secureName": "sea-Indic",
+"country": "IND RI CL AUS RSA EAT COM YE SP EAK RM MOC MS SY XMAS COCO MV MAYO REUN TL",
+"bordering": "sea-Atlantic sea-Pacific sea-GulfAden sea-Javasee sea-Bandasee sea-ArabianSea sea-Bengal sea-AndamanSea",
+"name": "Indian Ocean",
+"depth": 6400}
+{
+"secureName": "sea-ArabianSea",
+"country": "YE OM SP PK IND",
+"bordering": "sea-Indic sea-GulfOman sea-GulfAden",
+"name": "Arabian Sea",
+"depth": 5203}
+{
+"secureName": "sea-GulfOman",
+"country": "IR PK OM UAE",
+"bordering": "sea-ArabianSea sea-PersianGulf",
+"name": "Gulf of Oman",
+"depth": 3350}
+{
+"secureName": "sea-PersianGulf",
+"country": "IR BRN IRQ KWT SA OM UAE Q",
+"bordering": "sea-GulfOman",
+"name": "Persian Gulf",
+"depth": 102}
+{
+"secureName": "sea-Rotes_Meer",
+"country": "IL ET JOR SA YE SUD DJI ER",
+"bordering": "sea-GulfAden",
+"name": "Red Sea",
+"depth": 2635}
+{
+"secureName": "sea-GulfAden",
+"country": "DJI SP YE",
+"bordering": "sea-Indic sea-ArabianSea sea-Rotes_Meer",
+"name": "Gulf of Aden",
+"depth": 5143}
+{
+"secureName": "sea-Bengal",
+"country": "BD MYA IND CL",
+"bordering": "sea-Indic sea-AndamanSea",
+"name": "Gulf of Bengal",
+"depth": 4045}
+{
+"secureName": "sea-AndamanSea",
+"country": "MYA IND THA RI",
+"bordering": "sea-Indic sea-Bengal sea-MalakkaStrait",
+"name": "Andaman Sea",
+"depth": 3113}
+{
+"secureName": "sea-MalakkaStrait",
+"country": "THA RI MAL SGP",
+"bordering": "sea-AndamanSea sea-SouthChinaSea",
+"name": "Malakka Strait",
+"depth": 104}
+{
+"secureName": "sea-Javasee",
+"country": "RI TL",
+"bordering": "sea-Indic sea-Bandasee sea-Celebessee sea-SouthChinaSea",
+"name": "Java Sea",
+"depth": 2333}
+{
+"secureName": "sea-Bandasee",
+"country": "RI TL",
+"bordering": "sea-Indic sea-Pacific sea-Celebessee sea-Javasee",
+"name": "Banda Sea",
+"depth": 7440}
+{
+"secureName": "sea-Celebessee",
+"country": "RI MAL RP",
+"bordering": "sea-Bandasee sea-Javasee sea-Pacific sea-Sulusee",
+"name": "Sulawesi Sea",
+"depth": 6218}
+{
+"secureName": "sea-Sulusee",
+"country": "MAL RP",
+"bordering": "sea-Celebessee sea-Pacific sea-SouthChinaSea",
+"name": "Sulu Sea",
+"depth": 6218}
